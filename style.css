@@ -1,0 +1,789 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.nav{
+    background-color:blue;
+    margin-top:-27px;
+   padding:7px;
+    
+    
+}
+.nav h3{
+    margin-left:13%;
+    padding-top:11px;
+    color:white;
+    font-style: italic; 
+}
+
+.nav h6{
+    margin-left:178px;
+    margin-top:-18px;
+    color:whitesmoke;
+    font-style: italic;
+}
+.nav .plus{
+    margin-left:220px;
+    margin-top:-37px;
+    color:#ffed4d;
+    font-style: italic;
+}
+.nav h5:hover{
+    text-decoration: underline white;
+}
+.nav .search{
+    margin-left:257px;
+    margin-top:-61px;    
+}
+.search input{
+    
+    width:541px;
+    border-radius:3px;
+    padding:11px;
+    margin-top:2px; 
+}
+.searchbox{
+    margin-left:806px;
+    margin-top:-35px;
+    
+}
+
+.searchbox .fas{
+
+    color:blue;
+   
+}
+
+.btn1{
+    margin-left :860px;
+    margin-top:-44px;
+   
+  
+}
+
+.btn1 button{
+    height:38px;
+    width:137px;
+    background-color: #fff;
+    color:blue;
+    font-size:15px;
+    font-weight: bolder;
+}
+
+.btn1 ul{
+    list-style-type: none;
+}
+
+.submenu{
+    display:none;
+   
+  
+
+}
+
+.submenu ul{
+    list-style-type: none;
+   
+}
+
+
+.btn1 ul li:hover .submenu{
+    display:block;
+    position:absolute;
+    background-color:blue;
+    margin-top:7px;
+    margin-left:-15px;
+    
+   
+    }
+
+    .btn1 ul li:hover .submenu ul{
+        display:block;
+        margin:10px;
+      
+
+    }
+
+    .btn1 ul li:hover .submenu ul li{
+        width:150px;
+        padding:10px;
+        border-bottom:1px dotted white;
+        background:transparent;
+        border-radius:0;
+        text-align: left;
+       
+
+    }
+
+    .btn1 ul li:hover .submenu ul li:last-child{
+        border-bottom: none;
+       
+    }
+
+    .submenu ul li a{
+        color:yellow;
+        text-decoration: none;
+         
+       
+    }
+
+    .submenu .fas{
+        margin-right:10px;   
+    }
+
+    .more{
+        margin-top:-42px;
+        margin-left:1057px;
+        color:white;
+        font-weight: bold;
+    }
+
+    .more ul{
+       list-style-type: none;
+    }
+    
+    .submore{
+        display:none;
+    }
+
+    .submore ul{
+        list-style-type: none;
+    }
+
+    .more ul li:hover .submore{
+        display:block;
+        position:absolute;
+        background-color:blue;
+        margin-top:7px;
+        margin-left:-15px;
+    }
+
+    .more ul li:hover .submore ul{
+        display:block;
+        margin:10px;
+    }
+
+    .more ul li:hover .submore ul li{
+        width:150px;
+        padding:10px;
+        border-bottom:1px dotted white;
+        background:transparent;
+        border-radius:0;
+        text-align: left;
+    }
+
+    .more ul li:hover .submore ul li:last-child{
+        border-bottom: none;
+    }
+
+    .submore ul li a{
+        color:yellow;
+        text-decoration: none;
+        text-align: center;
+       
+    }
+    .submore .fas{
+        margin-right:10px;   
+    }
+    .cart{
+        margin-left: 1203px;
+        margin-top:-33px;
+    }
+
+    .cart .fas{
+        color:white;
+       
+    }
+    .menu{
+        margin-top:20px;
+        
+    }
+    .menu  img{
+        width:10vh;
+        
+    }
+    .offer img{
+        margin-left:55px;
+        margin-top: 10px;
+        padding:-3px;
+    }
+
+    .offer h5{
+        margin-left:55px;
+        margin-top:5px;
+        font-weight: bold;
+    }
+
+    .grocery{
+        margin-left:179px;
+        margin-top: -110px;
+        padding:-3px;
+    }
+
+    .grocery h5{
+        margin:6px;
+        
+    }
+
+    .mobiles{
+        margin-left:330px;
+        margin-top: -97px;
+        padding:-3px;
+    }
+
+    .mobiles h5{
+        margin-top:10px;
+        margin-left:10px;
+    }
+
+    .fashion{
+        margin-left:460px;
+        margin-top: -109px;
+        padding:-3px;
+    }
+
+    .fashion h5{
+        margin-left:10;
+        margin-top:6px;
+    }
+    .electronics{
+        margin-left:580px;
+        margin-top: -110px;
+        padding:-3px; 
+    }
+
+    .electronics h5{
+        margin-left:-6px;
+        margin-top:7px;
+    }
+
+    .home{
+        margin-left:710px;
+        margin-top: -107px;
+        padding:-3px;    
+    }
+
+    .home h5{
+        margin-left:23px;
+        margin-top:1px;
+    }
+
+    .apliance{
+        margin-left:857px;
+        margin-top: -110px;
+        padding:-3px;   
+    }
+
+    .apliance h5{
+        margin-top:7px;
+        margin-left:1px;
+    }
+    .travel{
+        margin-left:1035px;
+        margin-top: -117px;
+        padding:-3px;   
+    }
+    .travel h5{
+        margin-left:7px;
+        margin-top:15px;
+    }
+
+
+    .beauty{
+        margin-left:1190px;
+        margin-top: -110px;
+        padding:-3px; 
+
+    }
+    .beauty h5{
+        margin-left:-18px;
+        margin-top:5px;
+    }
+    hr{
+        margin-top:-2px;
+    }
+  .slidershow{
+   width:1366px;
+   height:400px;
+   overflow: hidden; 
+   
+  }
+
+  .middle{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+  }
+
+ 
+  .navigation{
+      position:absolute;
+      bottom:20px;
+      left:50%;
+      transform: translatex(-50%);
+      display: flex;
+  }
+
+  .bar{
+      width:50px;
+      height:10px;
+      border:2px solid red;
+      background-color:yellowgreen;
+      margin:6px;
+      cursor:pointer;
+      transition: 0.4s;
+  }
+  .bar:hover{
+      background: #fff;
+  }
+
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  .slides{
+      width:500%;
+      height:100%;
+      display:flex;
+  }
+
+  .slide{
+      width:20%;
+      transition: 0.6s;
+  }
+
+  .slide img{
+      width:100%;
+      height:100%;
+      margin-top:88px;
+  }
+
+  #r1:checked ~ .s1{
+      margin-left:0%;
+  }
+
+  #r2:checked ~ .s1{
+    margin-left:-20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left:-40%;
+}
+
+#r4:checked ~ .s1{
+    margin-left:-60%;
+}
+
+
+
+
+
+
+
+
+.blidershow{
+    width:1366px;
+   height:400px;
+   overflow: hidden;  
+}
+
+
+
+.niddle{
+    position: absolute;
+    top:130%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.pavigation{
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform: translatex(-50%);
+    display: flex;
+}
+
+.dar{
+    width:50px;
+    height:10px;
+    border:2px solid red;
+    background-color:yellow;
+    margin:6px;
+    cursor:pointer;
+    transition: 0.4s;
+}
+.dar:hover{
+    background: #fff;
+}
+input[name="s"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.blides{
+    width:500%;
+    height:100%;
+    display:flex;
+}
+.blide{
+    width:3%;
+    transition: 0.6s;
+}
+.blide img{
+   margin-left:40px;
+    margin-top:48px;
+    
+}
+
+
+#s1:checked ~ .t1{
+    margin-left:0%;
+}
+
+#s2:checked ~ .t1{
+  margin-left:-10%;
+}
+
+#s3:checked ~ .t1{
+  margin-left:-20%;
+}
+
+#s4:checked ~ .t1{
+  margin-left:-30%;
+}
+
+#s5:checked ~ .t1{
+    margin-left:-40%;
+  }
+  #s6:checked ~ .t1{
+    margin-left:-50%;
+  }
+  #s7:checked ~ .t1{
+    margin-left:-60%;
+  }
+  #s8:checked ~ .t1{
+    margin-left:-70%;
+  }
+  #s9:checked ~ .t1{
+    margin-left:-80%;
+  }
+  #s10:checked ~ .t1{
+    margin-left:-90%;
+  }
+  #s11:checked ~ .t1{
+    margin-left:-100%;
+  }
+  #s12:checked ~ .t1{
+    margin-left:-100%;
+  }
+
+  .green{
+      margin-top:300px;
+      margin-left:1020px;
+     
+  }
+  .green img{
+   height:500px;
+   width:350px; 
+  }
+  .raam{
+      margin-top:-490px;
+  }
+  .raam h2{
+      margin-left: 30px;
+      margin-top:43px;
+  }
+
+  .btn{
+      margin-top:-32px;
+      margin-left:879px;
+  }
+
+  .btn button{
+      background-color: red;
+      margin-bottom:33px;
+  }
+  
+
+.show{
+    margin-left:55px;
+    margin-top:24px; 
+}
+.case{
+    margin-left:56px;
+    margin-top:-4px; 
+}
+
+  .pen{
+      margin-left:21px;
+      margin-top:24px; 
+      
+  }
+  .drive{
+    margin-left:17px;
+    margin-top:-4px; 
+  }
+
+  .sofa{
+      margin-left:106px;
+      margin-top:36px;
+  }
+  .set{
+    margin-left:89px;
+    margin-top:-3px; 
+  }
+
+  .pord{
+      margin-left:41px;
+      margin-top:23px;
+  }
+  .light{
+    margin-top:17px;
+    margin-left:89px;
+  }
+
+  .link{
+
+    margin-top:31px;
+    margin-left:78px;
+  }
+  .orginal{
+    margin-left:89px;
+    margin-top:20px;  
+  }
+
+  .anad{
+      margin-left:50px;
+      margin-top:20px;
+  }
+  .edit{
+    margin-left:75px;
+    margin-top:20px;
+
+  }
+
+  .blend{
+      margin-top:21px;
+      margin-left:32px;
+  }
+  .hand{
+    margin-top:20px;
+    margin-left:50px;
+  }
+
+  .numex{
+      margin-left:32px;
+      margin-top:20px;
+  }
+  .safte{
+    margin-left:74px;
+    margin-top:20px; 
+  }
+
+  .rapid{
+    margin-left:32px;
+    margin-top:68px;
+  }
+  .plus{
+    margin-left:79px;
+    margin-top:19px;   
+  }
+
+  .elect{
+      margin-left:80px;
+      margin-top:41px;
+  }
+  .tronic{
+    margin-left:90px;
+    margin-top:15px; 
+  }
+ 
+.sup{
+    margin-left:50px;
+    margin-top:22px;  
+}
+.game{
+    margin-left:90px;
+    margin-top:17px;  
+}
+.black{
+    margin-left:61px;
+    margin-top:22px;    
+}
+
+.box{
+    margin-left:72px;
+    margin-top:15px;  
+}
+.blide:hover{
+    transform:scale(1.1);
+    
+}
+
+.man{
+   
+    margin-top:94px;
+    margin-left:20px;
+}
+
+.nam{
+    margin-left:20px;
+}
+.narrow{
+    margin-top:405px;
+    margin-left:20px;
+}
+
+.narrow img{
+    width:60vh;
+}
+.narrow2{
+    margin-left:430px;
+    margin-top:-280px;
+}
+
+.narrow2 img{
+    height:287px;
+}
+
+.narrow3{
+    margin-left:867px;
+    margin-top:-267px;
+}
+
+
+
+.marrow2{
+    margin-top:70px;
+    margin-left:20px;
+}
+
+.marrow2 img{
+    width:60vh;
+}
+
+.man2{
+    margin-left:430px;
+    margin-top:-247px;
+
+}
+.man2 img{
+    height:243px;
+}
+
+.man3{
+    margin-left:867px;
+    margin-top:-245px;
+}
+
+.man3 img{
+    height:243px;
+}
+.narrow img:hover{
+    transform:scale(1.1);
+}
+.marrow2 img:hover{
+    transform:scale(1.1);
+}
+.list{
+    background-color:navy;
+    height:353px;
+    color:white;
+}
+
+.contact:hover{
+    
+    text-decoration:white underline;
+
+}
+.list1 ul{
+    list-style-type: none;
+    
+   
+
+}
+.list1 li{
+    margin-top:7px;
+}
+
+.list2 ul{
+    list-style-type: none;
+}
+.list2{
+    margin-top:-227px;
+    margin-left:183px;
+}
+.list2 li{
+    margin-top:7px;
+
+}
+.list ul{
+    list-style-type: none;
+}
+
+.list3 ul{
+    list-style-type: none;
+   
+}
+.list3{
+    margin-top:-181px;
+    margin-left:406px;
+}
+
+
+.list li{
+    margin-top:7px;
+}
+
+
+.list4 ul{
+    list-style-type: none;
+}
+.list4{
+    margin-top:-202px;
+    margin-left:606px;
+}
+.t{
+    border-left:2px solid gray;
+    height:150px;
+    position:absolute;
+    left:56%;
+    margin-left:4px;
+    top:2428px;
+}
+
+.list5{
+    margin-top:-125px;
+    margin-left:750px;
+}
+
+.list6{
+    margin-top:-185px;
+    margin-left:1090px;
+}
+
+.hellp:hover{
+    text-decoration:white underline; 
+}
+.policy:hover{
+    text-decoration:white underline; 
+}
+
+.social:hover{
+    text-decoration:white underline; 
+}
+.phone{
+    margin-top: 91px;
+}
+
+
+
+
+
+
+
+
